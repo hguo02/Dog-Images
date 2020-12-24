@@ -13,7 +13,7 @@ client.on('ready', function() {
 
 client.on("message", function(msg) {
     if (msg.content === "!dog") {
-        msg.channel.send("Here you go! :)");
+        msg.channel.send("Here you go! 🙂");
 
         var randomNumber =  Math.floor(Math.random() * dogArray.length);
         var image = dogArray[randomNumber];
